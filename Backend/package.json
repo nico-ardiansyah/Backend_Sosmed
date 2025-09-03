@@ -1,0 +1,29 @@
+{
+  "name": "projectsosmed",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Nico_Ardiansyah",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "devBE": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "multer": "^2.0.1",
+    "node-cron": "^4.1.0",
+    "nodemailer": "^7.0.3",
+    "nodemailer-sendgrid": "^1.0.3",
+    "nodemon": "^3.1.10",
+    "supabase": "^2.24.3"
+  }
+}
